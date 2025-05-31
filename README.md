@@ -1,16 +1,19 @@
-# assignment
+# Flutter Product Preview App 📄✨
 
-A new Flutter project.
+This Flutter app allows users to:
+- Select products ✅
+- Input their name and email 📧
+- Generate a preview 📋
+- Download or share the preview as a PDF 📄📤
 
-## Getting Started
+## 🔧 Features
+- PDF generation with `pdf` package
+- Storage and file access
+- Sharing via `share_plus`
+- Clean UI and total price calculation
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
